@@ -45,7 +45,8 @@ We have a 3 step process for contributions.
 
 Code review takes place in GitHub pull requests. See [this article](https://help.github.com/articles/about-pull-requests/) if you're not familiar with GitHub Pull Requests.
 
-Once you open a pull request, maintainers will review your code using the built-in code review process in GitHub PRs. The process at this point is as follows:
+Once you open a pull request, maintainers will review your code using the built-in code review process in GitHub PRs.
+The process at this point is as follows:
 
 1. A maintainer will review your code and merge it if no changes are necessary. Your change will be merged into the repository's `master` branch and will be noted in the project's `CHANGELOG.md` at the time of release.
 1. If want your contribution to motivate your inclusion in the authorship, please add a line to that effect in the pull request
@@ -111,7 +112,7 @@ This pattern says that software versions should take an `X.Y.Z` pattern where:
 - Y is a minor release, which adds both new features and bugfixes
 - Z is a patch release, which adds just bugfixes
 
-Releases are generally performed after any bugfix / feature enhancement pull request merge. You can watch the Github repository for updates.
+Releases are generally performed after any bugfix / feature enhancement pull request merge. You can watch the GitHub repository for updates.
 The latest release will always point to the master branch, whilst release candidates will be done in version-specific branches, such as `v0.2.0-rc`.
 
 ### Publishing Releases
