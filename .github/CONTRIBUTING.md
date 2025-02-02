@@ -17,17 +17,17 @@ The maintainers recognise that contributions can be made in many forms, dependin
 We undertake to identify these contributions through consensus-building and recognise them as formal contributions to the project where applicable.
 Contributions may come in the form of:
 
-  - Feature or documentation requests, where they describe a need or gap
-  - Authoring or review of releases
-  - Direct authorship of code or documentation
-  - Identifying and fixing bugs
+- Feature or documentation requests, where they describe a need or gap
+- Authoring or review of releases
+- Direct authorship of code or documentation
+- Identifying and fixing bugs
 
 ## Contribution Process
 
 Before proposing a contribution via pull request, please ensure that an issue is open describing the need for your contribution.
 You will need to refer to this issue number when you submit the pull request.
-  - **It is recommended to make pull requests against release candidate branches, whenever features are involved**, instead of against the master branch. See [Release Cycle](#release-cycle) below.
-  - Pull requests to the master branch can be made in the case obvious fixes. See [Obvious Fix Policy](#obvious-fix-policy)
+- **It is recommended to make pull requests against release candidate branches, whenever features are involved**, instead of against the master branch. See [Release Cycle](#release-cycle) below.
+- Pull requests to the master branch can be made in the case obvious fixes. See [Obvious Fix Policy](#obvious-fix-policy)
 
 We have a 3 step process for contributions.
 
