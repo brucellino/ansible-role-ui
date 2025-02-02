@@ -1,6 +1,6 @@
 import os
 
-import testinfra.utils.ansible_runner
+import testinfra
 
 # See http://egi-qc.github.io/#SECURITY
 # World-writable files and directories are dangerous since they allows anyone
@@ -24,9 +24,8 @@ testinfra_hosts = testinfra.utils.ansible_runner.AnsibleRunner(
 # repoquery --requires
 # HT
 def test_world_writable_files(host):
-    assert (
-        check_output(
-            "find /tmp -type d \( -perm -g+w -or -perm -o+w \) -exec ls -adl {} \; |grep -v tmp"
-        )
-        == ""
+    cmd = (
+        "find /tmp -type d ( -perm -g+w -or -perm -o+w ) "
+        + "-exec ls -adl {} ; |grep -v tmp"
     )
+    assert testinfra.check_output(cmd) == ""
