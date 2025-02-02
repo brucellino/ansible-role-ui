@@ -178,3 +178,6 @@ molecule/default/pytestdebug.log
 
 # Ignore mega-linter reports
 megalinter-reports/
+
+# ignore cached ansible roles
+.ansible

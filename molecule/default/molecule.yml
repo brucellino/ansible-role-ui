@@ -3,13 +3,11 @@ dependency:
   name: galaxy
 driver:
   name: docker
-lint:
-  name: yamllint
 platforms:
-  - name: ui-centos7
-    image: quay.io/egi/voms-client:centos7
-  - name: ui-centos6
-    image: quay.io/egi/voms-client:centos6
+  # - name: ui-centos7
+  #   image: quay.io/egi/voms-client:centos7
+  - name: ui-almalinux9
+    image: quay.io/egi/voms-client:almalinux9
 provisioner:
   name: ansible
   config_options:
@@ -24,5 +22,3 @@ verifier:
   # Parallel testing only possible with xdist
   options:
     n: 2
-  lint:
-    name: flake8

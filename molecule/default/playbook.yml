@@ -1,7 +1,8 @@
 ---
 - name: Converge
   hosts: all
+  connection: docker
   roles:
     # - { role: EGI-Foundation.umd, release: 4, ca_verification: false, tags: "umd" }
     # - { role: EGI-Foundation.voms-client, tags: "voms"}
-    - { role: ansible-role-ui, tags: "ui"}
+    - { role: ansible-role-ui, tags: "ui" }
