@@ -45,7 +45,7 @@ We have a 3 step process for contributions.
 
 Code review takes place in GitHub pull requests. See [this article](https://help.github.com/articles/about-pull-requests/) if you're not familiar with GitHub Pull Requests.
 
-Once you open a pull request, maintainers will review your code using the built-in code review process in Github PRs. The process at this point is as follows:
+Once you open a pull request, maintainers will review your code using the built-in code review process in GitHub PRs. The process at this point is as follows:
 
 1. A maintainer will review your code and merge it if no changes are necessary. Your change will be merged into the repository's `master` branch and will be noted in the project's `CHANGELOG.md` at the time of release.
 1. If want your contribution to motivate your inclusion in the authorship, please add a line to that effect in the pull request
@@ -58,9 +58,9 @@ Small contributions, such as fixing spelling errors, where the content is small 
 As a rule of thumb, changes are obvious fixes if they do not introduce any new functionality or creative thinking. Assuming the change does not affect functionality, some common obvious fix examples include the following:
 
 - Spelling / grammar fixes
-- Typo correction, white space and formatting changes
+- Typo correction, whitespace and formatting changes
 - Comment clean up
-- Bug fixes that change default return values or error codes stored in constants
+- Bugfixes that change default return values or error codes stored in constants
 - Adding logging messages or debugging output
 - Changes to 'metadata' files like Gemfile, .gitignore, build scripts, etc.
 - Moving source files from one directory or package to another
@@ -87,7 +87,7 @@ Once you do this you will be able to push your changes to your GitHub repository
 
 ### Branches and Commits
 
-You should submit your patch as a git branch named after the Github issue, such as `#3`.
+You should submit your patch as a git branch named after the GitHub issue, such as `#3`.
 This is called a _topic branch_ and allows users to associate a branch of code with the ticket.
 
 It is a best practice to have your commit message have a _summary line_ that includes the ticket number, followed by an empty line and then a brief description of the commit. This also helps other contributors understand the purpose of changes to the code.
@@ -108,8 +108,8 @@ We follow the [Semantic Versioning](https://semver.org/) as far as applicable.
 This pattern says that software versions should take an `X.Y.Z` pattern where:
 
 - X is a major release, which may not be fully compatible with prior major releases
-- Y is a minor release, which adds both new features and bug fixes
-- Z is a patch release, which adds just bug fixes
+- Y is a minor release, which adds both new features and bugfixes
+- Z is a patch release, which adds just bugfixes
 
 Releases are generally performed after any bugfix / feature enhancement pull request merge. You can watch the Github repository for updates.
 The latest release will always point to the master branch, whilst release candidates will be done in version-specific branches, such as `v0.2.0-rc`.
@@ -129,7 +129,7 @@ A `codemeta.json` must accompany each release accurately describing the research
 
 ## Community
 
-EGI benefits from a strong community of developers and system administrators, and vice-versa. If you have any questions or if you would like to get involved in the wider EGI community please contact EGI via the [EGI website](https://www.egi.eu/contact-us/)
+EGI benefits from a strong community of developers and system administrators, and vice-versa. If you have any questions or if you would like to get involved in the wider EGI community please contact EGI via the [EGI site](https://www.egi.eu/contact-us/)
 
 
 **This file has been modified from the Chef Cookbook Contributing Guide**.
