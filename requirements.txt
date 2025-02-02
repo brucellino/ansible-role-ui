@@ -1,5 +1,3 @@
-molecule
-pymarkdownlint
-docker
-jmespath
-pytest-xdist
+ansible-dev-tools==25.1.0
+jmespath==1.0.1
+pytest-xdist==3.6.1
