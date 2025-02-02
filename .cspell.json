@@ -7,7 +7,8 @@
     ".vscode",
     "package-lock.json",
     "megalinter-reports",
-    ".mega-linter.yml"
+    ".mega-linter.yml",
+    ".github/workflows"
   ],
   "language": "en",
   "version": "0.2",
