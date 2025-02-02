@@ -67,7 +67,7 @@ As a rule of thumb, changes are obvious fixes if they do not introduce any new f
 
 **Whenever you invoke the "obvious fix" rule, please say so in your commit message:**
 
-```
+```text
 ------------------------------------------------------------------------
 commit 370adb3f82d55d912b0cf9c1d1e99b132a8ed3b5
 Author: Julia Child <devguru@egi.eu>
