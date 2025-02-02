@@ -1,3 +1,4 @@
+---
 # See https://pre-commit.com for more information
 # See https://pre-commit.com/hooks.html for more hooks
 repos:
@@ -19,4 +20,4 @@ repos:
         stages:
           - commit-msg
         additional_dependencies:
-          - '@commitlint/config-conventional'
+          - "@commitlint/config-conventional"
